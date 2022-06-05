@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/miwang-all" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/miwang-apiserver" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/miwang-apiserver/miwang-apiserver-dashboard" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/miwang-business" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/miwang-business/miwang-business-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/miwang-commons" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/miwang-controller" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/miwang-controller/miwang-controller-dashboard" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/miwang-dependencies" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/miwang-generator" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/miwang-parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/miwang-repository" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/miwang-repository/miwang-repository-core" charset="UTF-8" />
+  </component>
+</project>

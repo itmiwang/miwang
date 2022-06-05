@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.miwang.repository.core.mapper.CoreOrderMapper">
+    <sql id="orderColumns">
+        o.id,
+        o.name,
+        o.admin_id,
+        o.status,
+        o.is_deleted,
+        o.create_time, 
+        o.update_time, 
+        a.username
+    </sql>
+    
+    <sql id="orderJoins">
+        LEFT JOIN core_admin AS a ON a.id = o.admin_id
+    </sql>
+    
+    <select id="listByQuery" resultType="com.miwang.repository.core.dto.CoreOrderDTO">
+        SELECT 
+        <include refid="orderColumns" />
+        FROM core_order AS o
+        <include refid="orderJoins"></include>
+        ${ew.customSqlSegment}
+    </select>
+</mapper>

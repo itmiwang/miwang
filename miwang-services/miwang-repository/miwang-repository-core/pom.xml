@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.miwang</groupId>
+        <artifactId>miwang-repository</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>miwang-repository-core</artifactId>
+    <packaging>jar</packaging>
+    <url>http://www.miwang.com</url>
+    <inceptionYear>2022-Now</inceptionYear>
+    <description>持久层-核心服务</description>
+
+    <developers>
+        <developer>
+            <id>miwang</id>
+            <name>guozq</name>
+            <email>gzq_spirit52@126.com</email>
+        </developer>
+    </developers>
+
+    <profiles>
+        <profile>
+            <id>microservice</id>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.springframework.boot</groupId>
+                        <artifactId>spring-boot-maven-plugin</artifactId>
+                        <configuration>
+                            <mainClass>com.miwang.repository.core.CoreRepositoryApplication</mainClass>
+                        </configuration>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+    </profiles>
+
+</project>

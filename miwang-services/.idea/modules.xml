@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/miwang-all/miwang-all.iml" filepath="$PROJECT_DIR$/miwang-all/miwang-all.iml" />
+      <module fileurl="file://$PROJECT_DIR$/miwang-apiserver/miwang-apiserver.iml" filepath="$PROJECT_DIR$/miwang-apiserver/miwang-apiserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/miwang-apiserver/miwang-apiserver-dashboard/miwang-apiserver-dashboard.iml" filepath="$PROJECT_DIR$/miwang-apiserver/miwang-apiserver-dashboard/miwang-apiserver-dashboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/miwang-business/miwang-business.iml" filepath="$PROJECT_DIR$/miwang-business/miwang-business.iml" />
+      <module fileurl="file://$PROJECT_DIR$/miwang-business/miwang-business-core/miwang-business-core.iml" filepath="$PROJECT_DIR$/miwang-business/miwang-business-core/miwang-business-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/miwang-commons/miwang-commons.iml" filepath="$PROJECT_DIR$/miwang-commons/miwang-commons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/miwang-controller/miwang-controller.iml" filepath="$PROJECT_DIR$/miwang-controller/miwang-controller.iml" />
+      <module fileurl="file://$PROJECT_DIR$/miwang-controller/miwang-controller-dashboard/miwang-controller-dashboard.iml" filepath="$PROJECT_DIR$/miwang-controller/miwang-controller-dashboard/miwang-controller-dashboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/miwang-dependencies/miwang-dependencies.iml" filepath="$PROJECT_DIR$/miwang-dependencies/miwang-dependencies.iml" />
+      <module fileurl="file://$PROJECT_DIR$/miwang-generator/miwang-generator.iml" filepath="$PROJECT_DIR$/miwang-generator/miwang-generator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/miwang-parent/miwang-parent.iml" filepath="$PROJECT_DIR$/miwang-parent/miwang-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/miwang-repository/miwang-repository.iml" filepath="$PROJECT_DIR$/miwang-repository/miwang-repository.iml" />
+      <module fileurl="file://$PROJECT_DIR$/miwang-repository/miwang-repository-core/miwang-repository-core.iml" filepath="$PROJECT_DIR$/miwang-repository/miwang-repository-core/miwang-repository-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/miwang-services.iml" filepath="$PROJECT_DIR$/.idea/miwang-services.iml" />
+    </modules>
+  </component>
+</project>

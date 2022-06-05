@@ -1,0 +1,5 @@
+com.miwang.repository.core
+com.miwang.repository.core.constant
+com.miwang.repository.core.domain
+com.miwang.repository.core.dto
+com.miwang.repository.core.mapper

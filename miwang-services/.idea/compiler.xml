@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="miwang-business-core" />
+        <module name="miwang-controller-dashboard" />
+        <module name="miwang-all" />
+        <module name="miwang-commons" />
+        <module name="miwang-generator" />
+        <module name="miwang-repository-core" />
+        <module name="miwang-apiserver-dashboard" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="miwang-all" target="1.8" />
+      <module name="miwang-apiserver" target="1.8" />
+      <module name="miwang-apiserver-dashboard" target="1.8" />
+      <module name="miwang-business" target="1.8" />
+      <module name="miwang-business-core" target="1.8" />
+      <module name="miwang-commons" target="1.8" />
+      <module name="miwang-controller" target="1.8" />
+      <module name="miwang-controller-dashboard" target="1.8" />
+      <module name="miwang-dependencies" target="1.8" />
+      <module name="miwang-generator" target="1.8" />
+      <module name="miwang-parent" target="1.8" />
+      <module name="miwang-repository" target="1.8" />
+      <module name="miwang-repository-core" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="miwang-all" options="-parameters" />
+      <module name="miwang-apiserver-dashboard" options="-parameters" />
+      <module name="miwang-business-core" options="-parameters" />
+      <module name="miwang-commons" options="-parameters" />
+      <module name="miwang-controller-dashboard" options="-parameters" />
+      <module name="miwang-generator" options="-parameters" />
+      <module name="miwang-repository-core" options="-parameters" />
+    </option>
+  </component>
+</project>
